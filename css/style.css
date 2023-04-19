@@ -66,3 +66,26 @@ ul li a {
 ul li:hover a {
     color: var(--textcolor);
 }
+.row{
+    position: relative;
+    display: flex;
+    width: calc(100vh - 116px);
+    height: 100vh;
+}
+.cols{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+}
+.textdata h2{
+    font-size: 7em;
+    font-weight: 600;
+    color: var(--secondary);
+    z-index: 1111;
+}
+.textdata h2 span{
+    color: var(--textcolor);
+    font-weight: 900;
+}
