@@ -13,6 +13,11 @@
     --textcolor: #ff2400;
 }
 
+.switch{
+    --primary: #36454f;
+    --secondary: #fff;
+}
+
 .container {
     position: relative;
     min-height: 100vh;
@@ -177,6 +182,14 @@ ul li:hover a {
     left: 50%;
     transform: translate(-50%, -50%);
     cursor: pointer;
+}
+
+.switch .fa-sun{
+    display: block;
+}
+
+.switch .fa-moon{
+    display: none;
 }
 
 .fa-sun{
